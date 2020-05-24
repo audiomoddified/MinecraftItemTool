@@ -2,7 +2,7 @@ from tkinter import Label, OptionMenu, Button, E, W, StringVar
 import logging
 
 
-class MinecraftScreenSelector():
+class MinecraftScreenSelector:
 
     def __init__(self, row_number, root):
         Label(text="Minecraft Screen").grid(row=row_number, column=0, sticky=E)
